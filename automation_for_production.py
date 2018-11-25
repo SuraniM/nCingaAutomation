@@ -434,7 +434,6 @@ class Automation(Frame):
 
         return main_arr
 
-
     def download_csv(self,core_json_data, cate_json_data, elog_json_data, flink_json_data):
 
         core_result = self.get_data_core_cate(json.loads(core_json_data))
